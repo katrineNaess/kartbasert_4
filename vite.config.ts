@@ -1,6 +1,6 @@
-import { defineConfig } from 'vite'
+import { defineConfig } from "vite";
 
 // https://vite.dev/config/
 export default defineConfig({
-  base: "/kartbasert_4/"
-})
+  base: "/kartbasert_4/",
+});

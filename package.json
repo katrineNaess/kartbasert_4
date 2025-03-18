@@ -4,7 +4,7 @@
   "version": "0.0.0",
   "type": "module",
   "scripts": {
-    "test": "prettier --check . && --no.emit",
+    "test": "prettier --check . && tsc --noEmit",
     "dev": "vite",
     "build": "tsc -b && vite build",
     "lint": "eslint .",
